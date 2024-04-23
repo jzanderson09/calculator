@@ -1,10 +1,25 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    margin: 0;
+    width: 100%;
+}
+
+* {
+    font-size: 3.6rem;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+.calc-btn {
+    border: 3px outset rgb(0 0 0);
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0);
+    height: 6rem;
+    margin: 1%;
+    width: 8rem;
 }
